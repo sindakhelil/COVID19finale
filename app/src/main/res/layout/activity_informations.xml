@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/FireBrick">
+
+        <ImageView
+            android:id="@+id/fleche"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="@string/desc_flecheinfo" />
+    <TextView
+        android:id="@+id/gr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/infos"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="28sp" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/texte1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/format_bouton"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:padding="14dp"
+        android:text="@string/symptomes"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:id="@+id/texte2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/format_bouton"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:padding="14dp"
+        android:text="@string/prevention"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:id="@+id/texte3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/format_bouton"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:padding="14dp"
+        android:text="@string/traitement"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        />
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cov"
+        android:layout_gravity="center"
+        android:contentDescription="@string/desc_monimage" />
+
+</LinearLayout>

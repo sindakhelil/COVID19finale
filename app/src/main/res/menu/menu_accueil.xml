@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:title="@string/Accueil"
+            android:icon="@drawable/ic_baseline_home" />
+
+        <item
+            android:id="@+id/nav_connexion"
+            android:title="@string/nav_c"
+            android:icon="@drawable/ic_baseline_supervised_user_circle" />
+        <item
+            android:id="@+id/nav_fav"
+            android:title="@string/nav_f"
+            android:icon="@drawable/ic_baseline_favorite_border_24"
+
+             />
+        <item
+            android:id="@+id/nav_notif"
+            android:icon="@drawable/ic_baseline_notifications_active"
+            android:title="@string/notife" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_shar"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="@string/nav_share" />
+            <item
+                android:id="@+id/nav_dec"
+                android:icon="@drawable/ic_baseline_power_settings_new_24"
+                android:title="@string/nav_deconect" />
+        </menu>
+    </item>
+
+</menu>

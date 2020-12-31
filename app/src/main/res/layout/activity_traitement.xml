@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/FireBrick">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="@string/descflechetraitement" />
+        <TextView
+            android:id="@+id/tra1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/traitement"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textSize="30sp" />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:src="@drawable/traitement"
+        android:layout_gravity="center"
+        android:contentDescription="@string/desc_medica" />
+    <TextView
+        android:id="@+id/tra2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trait"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tra3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trait1"
+        android:textColor="@color/colorAccent"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tra4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trait2"
+        android:textColor="@color/Black"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tra5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trait3"
+        android:textColor="@color/Black"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp">
+    </TextView>
+    <TextView
+        android:id="@+id/tra6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trait4"
+        android:textColor="@color/Black"
+        android:textStyle="normal"
+        android:textSize="15sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="10dp">
+    </TextView>
+
+</LinearLayout>

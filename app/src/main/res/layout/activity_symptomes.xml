@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/FireBrick">
+
+        <ImageView
+            android:id="@+id/back2"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:contentDescription="@string/desc_flechesymptomes" />
+        <TextView
+            android:id="@+id/sym"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/symptomes"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textSize="30sp" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/sym1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+    </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/sym2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/symp"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginEnd="50dp">
+    </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sym3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/symp1"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/sym4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/symp2"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/sym5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/symp3"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/sym6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/symp4"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:layout_marginEnd="50dp">
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/sym7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/symp5"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/sym8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/symp6"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/sym9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/symp7"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="110dp"
+            android:src="@drawable/sympto"
+            android:gravity="center"
+            android:contentDescription="@string/descrp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/FireBrick"
+            >
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="40dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_baseline_arrow_back_24"
+                    android:contentDescription="@string/desc_flechecontact" />
+                      <TextView
+                          android:id="@+id/gr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Contact"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+        </FrameLayout>
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/util"
+            android:inputType="text"
+            android:textColor="#000"
+            android:background="#f0f0f4"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="16dp"
+            android:autofillHints=""
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/adressMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/adress"
+            android:inputType="textEmailAddress"
+            android:background="#f0f0f4"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="12dp"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="16dp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/adress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/adres"
+            android:inputType="textPostalAddress"
+            android:background="#f0f0f4"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="12dp"
+            android:drawableStart="@drawable/ic_baseline_add_location_24"
+            android:drawablePadding="16dp"
+            android:autofillHints=""
+            android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/numbOfTimes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nbr"
+            android:inputType="number"
+            android:background="#f0f0f4"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="12dp"
+            android:drawableStart="@drawable/ic_baseline_format_list_numbered_rtl_24"
+            android:drawablePadding="16dp"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/date"
+            android:textSize="20sp" />
+        <DatePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="150dp"
+            android:layout_height="135dp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/format_bouton"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:text="@string/enregistrer"
+            android:textSize="16sp"
+            android:textColor="@color/White"
+            />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/format_boton"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:padding="14dp"
+            android:text="@string/logout"
+            android:textSize="16sp"
+            android:textColor="@color/White"
+            />
+</LinearLayout>
